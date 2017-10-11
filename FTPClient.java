@@ -58,9 +58,9 @@ class FTPClient {
 				    {
 					try
 					    {
+						//just seeing that they are connected
 						modifiedSentence = inData.readUTF();
-					        
-					       	System.out.println(modifiedSentence);
+					        System.out.println(modifiedSentence);
 						
 					    }
 					catch (Exception e)
